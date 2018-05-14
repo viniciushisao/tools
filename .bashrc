@@ -1,4 +1,5 @@
-alias gitp="git checkout develop; git pull origin develop --rebase; git fetch --all; git clean -fxd"
+alias gitp="git checkout develop; git pull origin develop --rebase; git fetch --all"
+alias gitm="git checkout master; git pull origin master --rebase; git fetch --all"
 alias gits="git status"
 alias gitd="git diff --color --color-words --abbrev --no-prefix "
 
